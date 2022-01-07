@@ -23,24 +23,21 @@ module.exports = {
       },
       maxWidth: {
         1240: "1240px",
+        900: "900px",
+        700: "700px",
         500: "500px",
         138: "138px",
       },
       minHeight: {
-        "1/4": "25vh",
-        50: "50vh",
-        "1/2": "50%",
+        400: "400px",
       },
       maxHeight: {
         0: "0px",
         1240: "1240px",
         500: "500px",
         138: "138px",
-
-        initial: "initial",
       },
       height: {
-        initial: "initial",
         6: "1.5rem",
         10: "2.5rem",
         20: "5rem",

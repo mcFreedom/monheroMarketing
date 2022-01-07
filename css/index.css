@@ -85,14 +85,15 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 }
 .money {
   background-image: url("/money.jpeg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   clip-path: polygon(3% 17%, 75% 0%, 96% 31%, 92% 87%, 5% 74%, 12% 50%);
   z-index:1;
 }
 .spy {
   background-image: url("/spy.jpeg");
-  background-size: 100%;
+  background-size: cover;
   background-repeat: no-repeat;
   clip-path: polygon(50% 0, 100% 50%, 100% 100%, 0 50%);
   z-index:1;
