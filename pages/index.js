@@ -78,19 +78,22 @@ function IndexPage() {
 
       <section className="">
         <div className="flex flex-wrap text-white pt-4 md:min-h-400 items-center">
-          <div className="w-full sm:w-1/2 p-6 md:text-right">
-            <h3 className="text-3xl md:text-4xl font-bold leading-none pt-2">
-              Track your cryptos
-            </h3>
-            <p className="mb-8 md:text-2xl text-justify">
-              Lives rates from hundreds of coins, updating often (but not too
-              often, to reduce stress and addiction)
-            </p>
-            <p className="mb-8 md:text-2xl text-justify">
-              A dashboard, inspired by CoinMarketCap, but with your actual
-              assets.
-            </p>
+          <div className="w-full sm:w-1/2 p-6 md:text-right flex justify-end">
+            <div className="max-w-500 right-0">
+              <h3 className="text-3xl md:text-4xl font-bold leading-none py-2">
+                Track your cryptos
+              </h3>
+              <p className="mb-8 md:text-2xl md:text-right text-justify">
+                Lives rates from hundreds of coins, updating often (but not too
+                often, to reduce stress and addiction)
+              </p>
+              <p className="mb-8 md:text-2xl md:text-right text-justify">
+                A dashboard, inspired by CoinMarketCap, but with your actual
+                assets.
+              </p>
+            </div>
           </div>
+
           <div className="w-full sm:w-1/2 pb-6 md:p-6 money h-40"></div>
 
           <div className="flex-center pb-4 w-full">
@@ -134,8 +137,8 @@ function IndexPage() {
           </div>
         </div>
 
-        <div className="flex flex-wrap text-white md:text-2xl">
-          <div className="w-full p-6 text-center">
+        <div className="flex flex-center text-white md:text-2xl">
+          <div className="w-full max-w-500 p-6 text-center">
             <h3 className="text-3xl md:text-4xl font-bold leading-none pb-2">
               Ultimate privacy
             </h3>
@@ -170,8 +173,8 @@ function IndexPage() {
           </div>
         </div>
 
-        <div className="flex flex-wrap text-white md:text-2xl">
-          <div className="w-full p-6 text-center">
+        <div className="flex flex-center text-white md:text-2xl">
+          <div className="w-full p-6 max-w-500 text-center">
             <h3 className="text-3xl md:text-4xl font-bold leading-none pb-2">
               Source of truth
             </h3>
@@ -186,8 +189,8 @@ function IndexPage() {
           </div>
         </div>
 
-        <div className="flex flex-wrap bg-white md:text-2xl">
-          <div className="w-full text-center p-6">
+        <div className="flex flex-center  bg-white md:text-2xl">
+          <div className="w-full  max-w-500 text-center p-6">
             <h3 className="text-2xl md:text-4xl font-bold leading-none pb-2 text-gray-800">
               Open source
             </h3>
