@@ -32,7 +32,7 @@ function IndexPage() {
         <div className="container pt-12 md:pt-24 px-3 mx-auto flex flex-col md:flex-wrap justify-start h-screen items-center">
           <div className="max-w-500 md:max-w-900 flex flex-col w-full justify-center items-center text-center p-4 ">
             <p className="tracking-loose w-full"></p>
-            <h1 className="hidden">Monhero</h1>
+            <h1 className="hidden">Secret Assets</h1>
             <h2 className="leading-normal text-2xl md:text-6xl mb-8 font-bold">
               The World's Most Private Portfolio Tracker
             </h2>
@@ -47,7 +47,7 @@ function IndexPage() {
 
             <div className="w-full flex flex-col justify-center items-center">
               <a
-                onClick={() => (window.location = appUrl("", "#sign-up"))}
+                onClick={() => (window.location = appUrl("", "/sign-up"))}
                 // style={{ height: "75px" }}
                 className="cursor-pointer hover:grows"
                 target="_blank"
@@ -127,7 +127,7 @@ function IndexPage() {
                 Bank accounts, Real estate, shares, pensions, art, vehicles...
               </p>
               <p className="text-gray-600 mb-8 md:text-2xl text-justify">
-                Whatever you can think of, input it on MonHero.
+                Whatever you can think of, input it on Secret Assets.
               </p>
               <p className="text-gray-600 mb-8 md:text-2xl text-justify">
                 Gain key insights into your profit or losses from each
@@ -197,7 +197,7 @@ function IndexPage() {
             <p className="mb-8 text-gray-600 text-justify">
               Anyone can visit our
               <a
-                href="https://github.com/Antoine007/monhero"
+                href="https://github.com/FreemanMcFreedom/secretAssets"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="underline px-1"
@@ -231,7 +231,7 @@ function IndexPage() {
 
         <div className="flex flex-col md:flex-row flex-center">
           <a
-            onClick={() => (window.location = appUrl("", "#sign-up"))}
+            onClick={() => (window.location = appUrl("", "/sign-up"))}
             className="cursor-pointer hover:grows"
             target="_blank"
             rel="noopener"

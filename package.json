@@ -1,7 +1,7 @@
 {
-  "name": "monhero-next",
+  "name": "secret-assets-marketing",
   "version": "1.0",
-  "description": "Marketing website for Monhero",
+  "description": "Marketing website for Secret Assets",
   "main": "index.js",
   "scripts": {
     "dev": "next -p 6006",
@@ -10,9 +10,9 @@
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Antoine Magny",
+  "author": "Freeman McFreedom",
   "license": "MIT",
-  "homepage": "https://www.monhero.estate",
+  "homepage": "https://www.secassets.com",
   "dependencies": {
     "@mdx-js/loader": "^1.6.22",
     "@n8tb1t/use-scroll-position": "^2.0.3",

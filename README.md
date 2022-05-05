@@ -1,4 +1,4 @@
-# Monhero marketing website
+# Secret Assets marketing website
 
 - tailwind + purge
 - next.js

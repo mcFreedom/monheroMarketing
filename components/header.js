@@ -29,7 +29,7 @@ function Header({ initialStyle }) {
             <span id="logo" className=" pr-1">
               🦸🏻‍♂️
             </span>
-            Monhero
+            Secret Assets
           </a>
         </div>
 

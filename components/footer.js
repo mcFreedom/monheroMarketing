@@ -3,8 +3,8 @@ import { ImLifebuoy } from "react-icons/im";
 import { GiScrollQuill } from "react-icons/gi";
 
 function Footer() {
-  const twitterUrl = "https://twitter.com/Monhero";
-  const githubUrl = "https://github.com/antoine007/monhero";
+  const twitterUrl = "https://twitter.com/secretAssets";
+  const githubUrl = "https://github.com/freemanmcFreedom/secretAssets";
 
   return (
     <footer className="bg-white">

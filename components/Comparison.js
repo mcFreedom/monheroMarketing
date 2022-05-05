@@ -16,7 +16,7 @@ export const Comparison = (props) => {
             <Th>CoinMarketCap</Th>
             <Th>Coin Gecko</Th>
             <Th>Spreadsheet</Th>
-            <Th>MonHero</Th>
+            <Th>Secret Assets</Th>
           </Tr>
         </Thead>
         <Tbody>
