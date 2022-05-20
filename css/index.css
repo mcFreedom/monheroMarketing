@@ -122,3 +122,14 @@ Td:first-child{
 }
 
 @tailwind utilities;
+
+.logo{
+  width: 100px;
+  height: 47px;
+}
+@media (min-width: 800px) {
+  .logo{
+    width: 200px;
+    height: 96px;
+  }
+}

@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { appUrl } from "../utils/constants";
 import { useState, useMemo, useEffect } from "react";
 
@@ -19,17 +20,18 @@ function Header({ initialStyle }) {
         className="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2"
         // style={{ "background-clip": "padding-box" }}
       >
-        <div className="pl-4 flex items-center">
+        <div className="pl-4">
           <a
-            className={`toggleColour no-underline hover:no-underline font-bold text-2xl lg:text-4xl ${
-              initialStyle ? "text-white" : "text-gray-800"
-            }`}
+            // className={`}`}
             href="/#"
           >
-            <span id="logo" className=" pr-1">
-              🦸🏻‍♂️
-            </span>
-            Secret Assets
+            <div className="logo relative">
+              {initialStyle ? (
+                <Image src="/logo-white.png" layout="fill" />
+              ) : (
+                <Image src="/logo.png" layout="fill" />
+              )}
+            </div>
           </a>
         </div>
 
